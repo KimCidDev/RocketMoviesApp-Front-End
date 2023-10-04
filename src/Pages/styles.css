@@ -1,0 +1,12 @@
+body {
+  background: gray;
+}
+
+h1 {
+  color: white;
+}
+
+span {
+  padding-left: 20px;
+  font-weight: bold;
+}
