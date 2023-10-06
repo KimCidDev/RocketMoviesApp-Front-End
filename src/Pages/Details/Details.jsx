@@ -9,10 +9,10 @@ export function Details () {
       <h1>Something important</h1>
       <span>something else</span>
 
-
       <Button  title="login" loading/>
       <Button title="logout" />
-      <Button  title="signup"/>
+      <Button  title="signup" />
+      <Button  title="Felipe Ávila" loading/>
     </Container>
   )
 }
