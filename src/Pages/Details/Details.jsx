@@ -1,11 +1,15 @@
-import "./styles.css"
+import { Container } from './styles';
+
+import { Button } from '../../components/Button';
 
 export function Details () {
 
   return (
-    <>
-    <h1> Hello Everyone </h1>
-    <span> Rodrigo Alves </span>
-    </>
+    <Container>
+      <h1>Teste</h1>
+      <p>Xis Salada é bom demais</p>
+      
+      <Button />
+    </Container>
   )
 }

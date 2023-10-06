@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Details } from './Pages/Details/Details'
 import { ThemeProvider } from 'styled-components'
-
 import GlobalStyles from './styles/global'
 
 import theme from './styles/theme'
+
+import { Details } from './Pages/Details/Details'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
