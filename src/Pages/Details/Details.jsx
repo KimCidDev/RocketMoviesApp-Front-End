@@ -6,10 +6,13 @@ export function Details () {
 
   return (
     <Container>
-      <h1>Teste</h1>
-      <p>Xis Salada é bom demais</p>
-      
-      <Button />
+      <h1>Something important</h1>
+      <span>something else</span>
+
+
+      <Button  title="login" loading/>
+      <Button title="logout" />
+      <Button  title="signup"/>
     </Container>
   )
 }
