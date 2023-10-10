@@ -1,6 +1,6 @@
 import { Container, Form, Background } from './styles';
 
-import { FiMail, FiLock } from 'react-icons/Fi'
+import { FiMail, FiLock, FiUser } from 'react-icons/Fi'
 
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
@@ -20,7 +20,7 @@ export function SignUp () {
         <Input
           placeholder="Name"
           type="text"
-          icon={FiMail} />
+          icon={FiUser} />
         <Input
           placeholder="Email"
           type="text"
