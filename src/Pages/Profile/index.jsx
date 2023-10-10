@@ -25,17 +25,18 @@ export function Profile () {
         type="text"
         icon={FiMail}
       />
+        <Input
+          placeholder="Old Password"
+          type="password"
+          icon={FiLock}
+        />
       <Input
         placeholder="New Password"
         type="password"
         icon={FiLock}
       />
-      <Input
-        placeholder="Old Password"
-        type="password"
-        icon={FiLock}
-      />
 
+      <Button title="Salvar"/>
 
     </Form>
 
