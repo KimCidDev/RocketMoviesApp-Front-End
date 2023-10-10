@@ -1,6 +1,6 @@
 import { Container, Form, Background } from './styles';
 
-import { FiMail, FiLock } from 'react-icons/Fi'
+import { FiMail, FiLock } from 'react-icons/fi'
 
 import { Button } from '../../components/Button';
 import { ButtonText } from '../../components/ButtonText';
@@ -25,7 +25,7 @@ export function SignIn () {
           type="password"
           icon={FiLock} />
 
-        <Button title="Entrar" label="form"/>
+        <Button title="Entrar"/>
 
         <a href="#">Criar Conta</a>
       </Form>
