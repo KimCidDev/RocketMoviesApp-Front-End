@@ -50,13 +50,18 @@ export function New () {
   }
 
   async function handleNewNote () {
+    // refazer as condições pra ficar como na explicação
+
     if (!title) {
-      alert('A nota precisa de um título!');
-      return
+      return alert('O título é essencial, necessário, imprescindível');      
     }
 
     if (newLink || newTag) {
-      alert('Não se esqueça de salvar os links e tags! =)');
+      return alert('Vai salvar a nova tag? Caso contrário deixe em branco!');
+    }
+
+    if (newTag) {
+      return alert('Vai salvar a nova tag? Caso contrário deixe em branco!')
     }
 
     await api.post("/notes", {
