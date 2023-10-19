@@ -23,7 +23,7 @@ export function SignIn () {
     <Container>
       <Form>
         <h1>Mindot</h1>
-        <p>Aplicação para salvar e gerenciar seus links úteis</p>
+        <p>Escreve aqui o que tu sabe que vai esquecer</p>
         <h2>Faça seu login</h2>
 
         <Input
